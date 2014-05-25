@@ -1,0 +1,33 @@
+{
+  "name": "git-count-commits",
+  "version": "0.1.0",
+  "description": "Get the total number of commits for a repo and a specific revision by shelling out to git.",
+  "main": "index.js",
+  "dependencies": {
+    "git-execute": "~0.1.0"
+  },
+  "devDependencies": {
+    "proxyquire": "~1.0.0",
+    "should": "~3.3.2",
+    "mocha": "~1.19.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alessioalex/git-count-commits"
+  },
+  "keywords": [
+    "git",
+    "commits",
+    "count",
+    "count-commits"
+  ],
+  "author": "Alexandru Vladutu <alexandru.vladutu@gmail.com> (http://careers.stackoverflow.com/alessioalex)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alessioalex/git-count-commits/issues"
+  },
+  "homepage": "https://github.com/alessioalex/git-count-commits"
+}
